@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="42" viewBox="0 0 87 42">
+      <defs>
+        <path id="a" d="M-577-60H663v2000H-577z"></path>
+      </defs>
+      <clipPath id="b">
+        <use xlink:href="#a" overflow="visible"></use>
+      </clipPath>
+      <g clip-path="url(#b)">
+        <defs>
+          <path id="c" d="M41.004 0C29.404 0 20 9.4 20 21c0 11.598 9.4 21 21.004 21h10.992C63.596 42 73 32.6 73 21 73 9.402 63.6 0 51.996 0H41.004z"></path>
+        </defs>
+        <clipPath id="d">
+          <use xlink:href="#c" overflow="visible"></use>
+        </clipPath>
+        <path clip-path="url(#d)" fill="none" stroke="#B0B3C4" stroke-width="10" stroke-miterlimit="10" d="M41.004 0C29.404 0 20 9.4 20 21c0 11.598 9.4 21 21.004 21h10.992C63.596 42 73 32.6 73 21 73 9.402 63.6 0 51.996 0H41.004z"></path>
+      </g>
+      <g id="knife">
+        <defs>
+          <path id="e" d="M-577-60H663v2000H-577z"></path>
+        </defs>
+        <clipPath id="f">
+          <use xlink:href="#e" overflow="visible"></use>
+        </clipPath>
+        <g clip-path="url(#f)">
+          <defs>
+            <path id="g" d="M85.323 5.945l-6.323 15 5.01 2.377s.762 9.735 1.012 12.623c.62 1.764 2.003.752 2.003 0v-30s-.78-1.957-1.702 0z"></path>
+          </defs>
+          <clipPath id="h">
+            <use xlink:href="#g" overflow="visible"></use>
+          </clipPath>
+          <path clip-path="url(#h)" fill-rule="evenodd" clip-rule="evenodd" fill="#B0B3C4" d="M74 .075h18.025v41.85H74z"></path>
+        </g>
+      </g>
+      <g id="fork">
+        <defs>
+          <path id="i" d="M-577-60H663v2000H-577z"></path>
+        </defs>
+        <clipPath id="j">
+          <use xlink:href="#i" overflow="visible"></use>
+        </clipPath>
+        <g clip-path="url(#j)">
+          <defs>
+            <path id="k" d="M9.928 7h1.355l2.272 15-5.628 1.674V37c-.982 2.084-2 0-2 0V23.674L.3 22 2.572 7h1.355v13c1 1.45 2 0 2 0V7h2v13c.974 1.33 2 0 2 0V7z"></path>
+          </defs>
+          <clipPath id="l">
+            <use xlink:href="#k" overflow="visible"></use>
+          </clipPath>
+          <path clip-path="url(#l)" fill-rule="evenodd" clip-rule="evenodd" fill="#B0B3C4" d="M-4.7 2h23.256v40.926H-4.7z"></path>
+        </g>
+      </g>
+    </svg>

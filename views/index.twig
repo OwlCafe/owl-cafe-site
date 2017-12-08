@@ -1,0 +1,135 @@
+{% include 'html-header.twig' %} {% include "header.twig" %}
+<div class="row no-gutters">
+    <div class="col-12">
+        {% include "slider.twig" %}
+    </div>
+</div>
+
+<div class="container content-wrapper">
+    <div class="row">
+        <div class="col-10 ml-auto mr-auto">
+            <div class="row">
+                <div class="col-12">
+                    <section id="chi">
+                        <h1>Chi siamo</h1>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat numquam, saepe beatae esse at deleniti molestias eos a
+                        ad repudiandae. Facilis doloremque voluptatibus ratione possimus nulla architecto quos, ea doloribus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quod repudiandae aut maxime architecto
+                        ipsum. Dolore eos voluptatibus, vel quae ipsa dolorum aliquam quibusdam, illo eligendi maxime temporibus
+                        iste consectetur.
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h1>I rapaci</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem provident exercitationem! Nam repellat corrupti
+                    omnis fuga! Ea labore praesentium debitis deleniti dolor libero, consequatur, esse odio exercitationem
+                    quam quos?
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-10 mr-auto ml-auto">
+                    {% include "rapaci-slider.twig" %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-10 ml-auto mr-auto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatibus temporibus officia laborum fuga tenetur.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <section id="cosa">
+                        <h1>Cosa facciamo</h1>
+                        Bacon ipsum dolor amet sausage meatball pig, ribeye pancetta hamburger alcatra capicola picanha. Jowl leberkas pork shoulder
+                        landjaeger.
+
+                        <div class="dishes">
+                            <h1>Specialità</h1>
+                            <div class="dishes-container">
+                                <div class="dishes-single">
+                                    <div class="image">
+                                        <img src="./assets/spaghetti.png" class="img-fluid">
+                                    </div>
+                                    <div class="label">
+                                        Spaghetti and meatballs
+                                    </div>
+                                </div>
+                                <div class="dishes-single">
+                                    <div class="image">
+                                        <img src="./assets/cinnamon.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="label">
+                                        Beautiful Cinnamon Roll
+                                    </div>
+                                </div>
+                                <div class="dishes-single">
+                                    <div class="image">
+                                        <img src="./assets/fool.png" class="img-fluid">
+                                    </div>
+                                    <div class="label">
+                                        Fool's Gold Loaf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% include "plate.twig" %}
+                    </section>
+                </div>
+            </div>
+            <div class="row social-row">
+                <div class="col-12 col-md-12">
+                    <section id="dove">
+                        <h1>Dove trovarci</h1>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium expedita
+                        <b>Via Carvasaglio 19, 25036, Palazzolo sull'Oglio</b> a consequuntur uscipit nemo quis commodi porro.
+                        <br> Autem unde atque deserunt, reprehenderit, eveniet similique esse rerum eius.
+                        <div class="social-container">
+                            <div class="social-item">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                                <span>Cafe</span>
+                            </div>
+
+                            <div class="social-item">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                                <span>Photos</span>
+                            </div>
+
+                            <div class="social-item">
+                                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                                <span>Mail</span>
+                            </div>
+                            <div class="social-item">
+                                <i class="fa fa-2x">{% include "owl-icon.twig" %}</i>
+                                <span>Phone</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 ml-auto mr-auto">
+            <div class="row">
+                <div class="col-12 col-md-10 ml-auto mr-auto">
+                    <div class="map-container">
+                        <div id="map" class="map"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row inverse">
+                <div class="col-12">
+                    <footer>
+                        PIVA 1234567891011121314 - Owl Café - Via Carvasaglio 19, 25036, Palazzolo sull'Oglio
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'html-footer.twig' %}
